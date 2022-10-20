@@ -16,7 +16,7 @@
 | writeSequence(10);| 5 4 3 2 1 1 2 3 4 5 |
 ### Notice that for odd numbers the sequence has a single 1 in the middle while for even values it has two 1s in the middle. Your method should throw an IllegalArgumentException if passed a value less than 1. A client using this method would have to call println to complete the line of output.
 
-```
+```java
 public static void writeSequence(int n){
     if(n < 1){
         throw new IllegalArgumentException();
